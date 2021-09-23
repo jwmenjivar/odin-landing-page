@@ -27,7 +27,7 @@ ul{
     justify-content: flex-end;
     gap: 10px;
 }
-.first{
+.same{
     border: 5px solid red;
 display: flex;   
 }
@@ -42,4 +42,12 @@ display: flex;
     width: 300px;
     height: 130px;
     background-color: grey;
+}
+.subcont{
+    border: 5px solid green;
+}
+.image2{    
+    width: 80px;
+    height: 80px;
+    background-color: cyan;
 }

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 5px solid blue;
+    height: 100vh;
+}
+header {
+    border: 5px solid red;
+display: flex;
+flex-direction: row;
+}
+.logo{
+    border: 5px solid green;
+    
+}
+
+.right-links{
+    border: 5px solid green;
+    
+}
+.first{
+    border: 5px solid red;
+display: flex;   
+}
+.sign{
+    border: 5px solid green;
+}
+.image{
+    border: 5px solid green;
+
+}
+.plholder{
+    width: 300px;
+    height: 130px;
+    background-color: grey;
+}

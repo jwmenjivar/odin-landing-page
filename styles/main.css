@@ -18,8 +18,14 @@ flex-direction: row;
 }
 
 .right-links{
-    border: 5px solid green;
-    
+    border: 5px solid green;   
+    flex: 1;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 .first{
     border: 5px solid red;

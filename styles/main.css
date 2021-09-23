@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Helvetica, sans-serif;
     border: 5px solid blue;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header {
     border: 5px solid red;
 display: flex;
 flex-direction: row;
+font-size: 24px;
+color: #F9FAF8;
+background-color: #1f2937;
 }
 .logo{
     border: 5px solid green;
@@ -20,6 +26,7 @@ flex-direction: row;
 .right-links{
     border: 5px solid green;   
     flex: 1;
+    
 }
 ul{
     list-style-type: none;
@@ -27,16 +34,32 @@ ul{
     justify-content: flex-end;
     gap: 10px;
 }
+a{font-size:18px;
+    color: #E5E7Eb;
+    text-decoration: none;
+}
 .same{
     border: 5px solid red;
-display: flex;   
+display: flex;
+   flex:1;
+   justify-content: center;
+   gap: 2em;
 }
 .sign{
     border: 5px solid green;
+    color: #F9FAF8;
+    background-color: #1f2937;
 }
 .image{
     border: 5px solid green;
-
+}
+.centext{
+    display: flex;
+    justify-content: center;
+}
+.centext > p{ 
+    font-size: 36px;
+    font-weight: 800;
 }
 .plholder{
     width: 300px;
@@ -45,9 +68,29 @@ display: flex;
 }
 .subcont{
     border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.subcont > p{
+    text-align: center;
+    width: 130px;
+    font-size: 13px;
 }
 .image2{    
-    width: 80px;
-    height: 80px;
-    background-color: cyan;
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    
+}
+main{
+    border:5px solid brown;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    border: 5px solid black;
 }
